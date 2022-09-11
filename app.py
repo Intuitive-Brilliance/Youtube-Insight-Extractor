@@ -231,7 +231,7 @@ def savetocloud():
             lst_of_tuples = list(df_cloud.itertuples(index=False, name=None))
             try:
                 # Connecting to mysql and creating new table for channel and inserting data
-                mydb = conn.connect(host='utubersinfo.mysql.database.azure.com', user='utuberuser', passwd='ubtubersinfo246@',port=3306, ssl_ca="myCA.pem")
+                mydb = conn.connect(host='utubersinfo.mysql.database.azure.com', user='', passwd='',port=3306, ssl_ca="myCA.pem")
                 cursor = mydb.cursor()
 
                 query = 'create table if not exists utuber_analytics.' + channel_name + '(utube_link varchar(300),title varchar(300),views varchar(80),thumnail_url varchar(300), likes varchar(40),comments varchar(8),top_comment varchar(600), duration varchar(100))'
@@ -239,7 +239,7 @@ def savetocloud():
                 mydb.commit()
 
                 for data in lst_of_tuples:
-                    mydb = mydb = conn.connect(host='utubersinfo.mysql.database.azure.com', user='utuberuser',passwd='ubtubersinfo246@', port=3306, ssl_ca="myCA.pem")
+                    mydb = mydb = conn.connect(host='', user='utuberuser',passwd='', port=3306, ssl_ca="myCA.pem")
                     cursor = mydb.cursor()
                     query = 'insert into utuber_analytics.' + channel_name + ' values' + str(data)
                     cursor.execute(query)
@@ -250,7 +250,7 @@ def savetocloud():
                 pass
             try:
                 # Connecting to MongoDB and storing data
-                client = pymongo.MongoClient("mongodb+srv://adminutuberanalytics:ubtubersinfo246@utuberanalytics.87rqyty.mongodb.net/?retryWrites=true&w=majority")
+                client = pymongo.MongoClient("")
                 db = client.test
 
                 titles = df.titles.to_list()
@@ -288,7 +288,7 @@ def downlaodvid():
             titles = ['3 Second Video','2 second video']'''
             try:
                 #channel_name = 'Telusko'
-                s3 = boto3.resource(service_name='s3', region_name='us-east-1', aws_access_key_id='AKIA4QKZIOLRD2TMFSVM',aws_secret_access_key='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')
+                s3 = boto3.resource(service_name='s3', region_name='us-east-1', aws_access_key_id='',aws_secret_access_key='')
                 bucket_name = channel_name.lower().replace(' ', '-')
                 s3.create_bucket(ACL='private', Bucket=bucket_name)
                 for ele in range(2):
