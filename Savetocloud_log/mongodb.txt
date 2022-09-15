@@ -1,0 +1,15 @@
+2022-09-16/00:59:08		Trying to insert data into MongoDB Atlas
+2022-09-16/00:59:08		Trying to insert data into MongoDB Atlas but something went wrong
+Error:database names cannot contain the character ' '
+2022-09-16/01:00:11		Trying to insert data into MongoDB Atlas
+2022-09-16/01:00:11		Trying to insert data into MongoDB Atlas but something went wrong
+Error:database names cannot contain the character ' '
+2022-09-16/01:08:04		Trying to insert data into MongoDB Atlas
+2022-09-16/01:08:04		Trying to insert data into MongoDB Atlas but something went wrong
+Error:database name cannot be the empty string
+2022-09-16/01:18:48		Trying to insert data into MongoDB Atlas
+2022-09-16/01:18:49		Successfully uploaded to MongoDB Atlas
+2022-09-16/01:24:24		Trying to insert data into MongoDB Atlas
+2022-09-16/01:24:26		Successfully uploaded to MongoDB Atlas
+2022-09-16/01:29:27		Trying to insert data into MongoDB Atlas
+2022-09-16/01:29:28		Successfully uploaded to MongoDB Atlas

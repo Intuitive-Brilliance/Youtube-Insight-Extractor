@@ -1,0 +1,15 @@
+2022-09-16/00:59:05		Trying to insert data into Azure Mysql
+2022-09-16/00:59:08		Trying to insert data into Azure Mysql but something went wrong
+Error:(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'kumar(utube_link varchar(300),title varchar(300),views varchar(80),thumnail_url ' at line 1")
+2022-09-16/01:00:08		Trying to insert data into Azure Mysql
+2022-09-16/01:00:11		Trying to insert data into Azure Mysql but something went wrong
+Error:(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'kumar(utube_link varchar(300),title varchar(300),views varchar(80),thumnail_url ' at line 1")
+2022-09-16/01:08:01		Trying to insert data into Azure Mysql
+2022-09-16/01:08:04		Trying to insert data into Azure Mysql but something went wrong
+Error:(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(utube_link varchar(300),title varchar(300),views varchar(80),thumnail_url varch' at line 1")
+2022-09-16/01:18:39		Trying to insert data into Azure Mysql
+2022-09-16/01:18:48		Successfully uploaded to Azure MySQL Database
+2022-09-16/01:24:18		Trying to insert data into Azure Mysql
+2022-09-16/01:24:24		Successfully uploaded to Azure MySQL Database
+2022-09-16/01:29:22		Trying to insert data into Azure Mysql
+2022-09-16/01:29:27		Successfully uploaded to Azure MySQL Database

@@ -1,0 +1,24 @@
+2022-09-16/00:59:17		Connecting to AWS S3 Bucket
+2022-09-16/00:59:20		Video:just a beginning Downloading...
+2022-09-16/00:59:30		Video:just a beginning Download sucessful
+2022-09-16/00:59:30		Video:just a beginning Uploading...
+2022-09-16/00:59:34		Video:just a beginning Upload successful
+2022-09-16/00:59:34		Connection to AWS S3 Bucket failed
+2022-09-16/01:19:34		Connecting to AWS S3 Bucket
+2022-09-16/01:19:36		Video:Ethereum Merge | Historic Day Downloading...
+2022-09-16/01:19:41		Video:Ethereum Merge | Historic Day Download Failed
+Tryng next video
+2022-09-16/01:19:41		Connection to AWS S3 Bucket failed
+Errorlist index out of range
+2022-09-16/01:24:29		Connecting to AWS S3 Bucket
+2022-09-16/01:24:31		Video:Ethereum Merge | Historic Day Downloading...
+2022-09-16/01:24:36		Video:Ethereum Merge | Historic Day Download Failed
+Tryng next video
+2022-09-16/01:24:36		Connection to AWS S3 Bucket failed
+Errorlist index out of range
+2022-09-16/01:29:30		Connecting to AWS S3 Bucket
+2022-09-16/01:29:32		Video:Ethereum Merge | Historic Day Downloading...
+2022-09-16/01:29:36		Video:Ethereum Merge | Historic Day Download Failed
+Tryng next video
+2022-09-16/01:29:36		Connection to AWS S3 Bucket failed
+Errorlist index out of range
